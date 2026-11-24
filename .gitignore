@@ -1,0 +1,14 @@
+# IDE
+.idea/
+.vscode/
+
+# сырьё исследования источников (не часть сдачи)
+research/
+
+# сборка и зависимости
+app/node_modules/
+app/dist/
+app/.angular/
+app/tmp/
+*.log
+.DS_Store

@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font: 400 16px/1.4 var(--f-ui);
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--c-dark); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+
+/* мобильный вид как на thebell.io: серый фон страницы, белые карточки */
+@media (max-width: 767px) { body { background: var(--c-bg-soft); } }
+
+/* блок отрисовал пустоту (например, нет данных для витрины): клетка сетки не занимает место */
+app-block-host:has(> :empty) { display: none; }

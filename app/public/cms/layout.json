@@ -1,0 +1,49 @@
+{
+  "blocks": [
+    {
+      "id": "feed-top",
+      "type": "news-feed",
+      "enabled": true,
+      "span": {
+        "desktop": 12,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "showcase",
+      "type": "product-showcase",
+      "enabled": true,
+      "span": {
+        "desktop": 12,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "feed-mid",
+      "type": "news-feed",
+      "enabled": true,
+      "span": {
+        "desktop": 12,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "webinars",
+      "type": "webinars",
+      "enabled": true,
+      "span": {
+        "desktop": 12,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "feed-photos",
+      "type": "news-feed",
+      "enabled": true,
+      "span": {
+        "desktop": 12,
+        "mobile": 4
+      }
+    }
+  ]
+}

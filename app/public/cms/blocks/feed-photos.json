@@ -1,0 +1,27 @@
+{
+  "settings": {},
+  "content": {
+    "items": [
+      {
+        "category": "The Bell объясняет",
+        "title": "Европа нервничает из-за низких запас газа перед зимой. Помогут ли ей российские энергоресурсы?",
+        "date": "24 ноября 2026",
+        "image": "assets/news/news-1.webp"
+      },
+      {
+        "category": "Утренняя рассылка",
+        "title": "Кто вернул Хуанга в Nvidia, в Европу по военному билету, в будущем России только Китай",
+        "date": "24 ноября 2026",
+        "image": "assets/news/news-2.webp",
+        "url": "https://thebell.io/kto-vernul-khuanga-v-nvidia-v-evropu-po-voennomu-biletu-v-budushchem-rossii-tolko-kitay"
+      },
+      {
+        "category": "The Bell.Invest",
+        "title": "Что дорогой доллар сделает с прибылью компаний из S&P 500",
+        "date": "20 ноября 2026",
+        "image": "assets/news/news-3.webp",
+        "url": "https://thebell.io/chto-dorogoy-dollar-sdelaet-s-pribylyu-kompaniy-iz-sp-500"
+      }
+    ]
+  }
+}

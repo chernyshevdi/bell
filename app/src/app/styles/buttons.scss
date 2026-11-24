@@ -1,0 +1,5 @@
+.btn { display: inline-block; border-radius: var(--r-btn); border: 1px solid transparent; padding: 12px 20px; min-height: 44px; font-weight: 500; text-decoration: none; text-align: center; transition: .2s ease-in-out; }
+.btn--primary { background: var(--c-accent); border-color: var(--c-accent-border); color: #fff; }
+.btn--primary:hover { background: transparent; color: var(--c-accent); }
+.btn--ghost { background: transparent; border-color: var(--c-grey-500); color: var(--c-text); }
+.btn--ghost:hover { background: var(--c-grey-500); color: #fff; }

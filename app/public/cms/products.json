@@ -1,0 +1,232 @@
+{
+  "_note": "Tech и Unlimited: цены с живого сайта, полный флоу. Invest и news: только информационные карточки, без кнопки и оплаты.",
+  "products": [
+    {
+      "id": "unlimited",
+      "name": "The Bell.Unlimited",
+      "active": true,
+      "tagline": "Весь контент The Bell без ограничений",
+      "description": "Пять рассылок, эксклюзивные вебинары, весь контент на сайте",
+      "benefits": [
+        "5 рассылок: «Утро», «Вечер», «Итоги недели», Invest, Tech",
+        "Все материалы на сайте без пейволла (архив 1000+)",
+        "Все закрытые вебинары The Bell",
+        "Закрытый Telegram-канал для инвесторов"
+      ],
+      "fromPrice": "от $39 в месяц",
+      "trial": null,
+      "verified": true,
+      "plans": [
+        {
+          "id": "unl-usd-1",
+          "currency": "USD",
+          "period": "month",
+          "months": 1,
+          "price": 39,
+          "label": "Ежемесячный",
+          "perText": "раз в месяц",
+          "saving": "Выгода $8 в месяц",
+          "separateText": "$47 в месяц, если оформлять подписки отдельно"
+        },
+        {
+          "id": "unl-usd-6",
+          "currency": "USD",
+          "period": "half",
+          "months": 6,
+          "price": 219,
+          "label": "Полугодовой",
+          "perText": "раз в полгода",
+          "saving": "Выгода $38 за полгода",
+          "separateText": "$257 за полгода, если оформлять подписки отдельно"
+        },
+        {
+          "id": "unl-usd-12",
+          "currency": "USD",
+          "period": "year",
+          "months": 12,
+          "price": 399,
+          "label": "Годовой",
+          "perText": "раз в год",
+          "saving": "Выгода $66 в год",
+          "separateText": "$465 в год, если оформлять подписки отдельно",
+          "default": true
+        },
+        {
+          "id": "unl-rub-12",
+          "currency": "RUB",
+          "period": "year",
+          "months": 12,
+          "price": 39900,
+          "label": "Годовой",
+          "perText": "в год",
+          "saving": "Выгода 2 900 ₽ в год",
+          "separateText": "42 800 ₽ в год, если оформлять подписки отдельно",
+          "default": true
+        }
+      ],
+      "flow": "internal",
+      "theme": {
+        "from": "#222222",
+        "to": "#5b6fe0"
+      }
+    },
+    {
+      "id": "tech",
+      "name": "The Bell.Tech",
+      "active": true,
+      "tagline": "О технологиях и IT-компаниях в мире и в России",
+      "description": "Не то, что ждёт нас в будущем, а то, что меняет настоящее прямо сейчас",
+      "benefits": [
+        "Одно письмо в неделю, 50+ рассылок в год",
+        "Закрытые вебинары с инсайдерами",
+        "Архив: 400+ выпусков с 2018 года",
+        "Telegram-канал The Bell.Tech"
+      ],
+      "fromPrice": "$1 первый месяц",
+      "verified": "USD и RUB сняты с живого сайта 2026-11-24",
+      "trial": {
+        "months": 1,
+        "price": 1,
+        "chargedAtCheckout": 1.01,
+        "currency": "USD",
+        "audience": "Только для новых пользователей",
+        "text": "Затем списывается $14.9 раз в месяц. Отмените в любой момент.",
+        "trialBenefits": {
+          "included": [
+            "Еженедельная рассылка The Bell.Tech о технологиях",
+            "Архив материалов The Bell.Tech на сайте за последние 14 дней"
+          ],
+          "excluded": [
+            "Участие во всех закрытых вебинарах The Bell.Tech и их записи"
+          ],
+          "note": "Со 2-го месяца: полный доступ"
+        }
+      },
+      "plans": [
+        {
+          "id": "tech-usd-trial",
+          "currency": "USD",
+          "period": "trial",
+          "months": 1,
+          "price": 1,
+          "thenPrice": 14.9,
+          "label": "Пробный",
+          "badge": "Только для новых пользователей",
+          "perText": "первый месяц",
+          "cta": "Попробовать за $1",
+          "note": "Затем списывается $14.9 раз в месяц. Отмените в любой момент.",
+          "default": true
+        },
+        {
+          "id": "tech-usd-1",
+          "currency": "USD",
+          "period": "month",
+          "months": 1,
+          "price": 14.9,
+          "label": "Ежемесячный",
+          "perText": "в месяц"
+        },
+        {
+          "id": "tech-usd-12",
+          "currency": "USD",
+          "period": "year",
+          "months": 12,
+          "price": 149,
+          "oldPrice": 178.8,
+          "discount": "−17%",
+          "label": "Годовой",
+          "perText": "$12.4 в месяц"
+        },
+        {
+          "id": "tech-rub-12",
+          "currency": "RUB",
+          "period": "year",
+          "months": 12,
+          "price": 12800,
+          "oldPrice": 15800,
+          "discount": "−19%",
+          "label": "Годовой",
+          "perText": "1 067 ₽ в месяц",
+          "note": "Списывается раз в год. Отмените в любой момент.",
+          "cta": "Подписаться",
+          "default": true,
+          "benefits": [
+            "Участие в вебинаре 24 ноября и запись",
+            "Еженедельная рассылка Tech",
+            "Полный архив материалов Tech",
+            "Участие в вебинарах Tech"
+          ],
+          "footnote": "Годовой тариф — не только способ сэкономить. Покупая его, вы поддерживаете нашу работу и помогаете The Bell."
+        },
+        {
+          "id": "tech-rub-single",
+          "currency": "RUB",
+          "period": "single",
+          "price": 1990,
+          "label": "Одноразовое участие",
+          "perText": "",
+          "forWebinarId": "tech-ai-dark-side",
+          "note": "Разовое участие в вебинаре, без подписки"
+        }
+      ],
+      "upsell": {
+        "productId": "unlimited",
+        "title": "The Bell.Unlimited вместо The Bell.Tech",
+        "text": "Всё из The Bell.Tech, плюс: The Bell.Invest, три новостные рассылки, все вебинары",
+        "price": "$39 в месяц",
+        "cta": "Оформить Unlimited",
+        "link": "Посмотреть все тарифы"
+      },
+      "cover": "tech-robot-hand",
+      "flow": "internal",
+      "theme": {
+        "from": "#1c5fd6",
+        "to": "#2f7bf0"
+      }
+    },
+    {
+      "id": "invest",
+      "name": "The Bell.Invest",
+      "active": true,
+      "tagline": "Фондовый рынок глазами долгосрочного инвестора",
+      "description": "Главные темы для инвесторов, большие инвестидеи, эксклюзивная аналитика",
+      "benefits": [
+        "Еженедельная рассылка для частных инвесторов",
+        "Вебинары",
+        "Материалы Invest на сайте",
+        "Закрытый Telegram-канал"
+      ],
+      "fromPrice": null,
+      "trial": null,
+      "verified": "описание с сайта, цен нет",
+      "plans": [],
+      "flow": "none",
+      "theme": {
+        "from": "#12372a",
+        "to": "#1f7a57"
+      }
+    },
+    {
+      "id": "news",
+      "name": "Новости и аналитика",
+      "active": true,
+      "tagline": "Рассылки «Утро», «Вечер» и «Итоги недели»",
+      "description": "Из всего потока новостей отбираем только по-настоящему важные события и объясняем «что вам с этого»",
+      "benefits": [
+        "Утренняя и вечерняя рассылки по будням",
+        "«Итоги недели»",
+        "Материалы на сайте",
+        "Без VPN, нужен только email"
+      ],
+      "fromPrice": null,
+      "trial": null,
+      "verified": "описание с сайта, цен нет",
+      "plans": [],
+      "flow": "none",
+      "theme": {
+        "from": "#8f1d12",
+        "to": "#eb3323"
+      }
+    }
+  ]
+}

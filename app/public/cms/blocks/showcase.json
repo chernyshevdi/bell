@@ -1,0 +1,150 @@
+{
+  "settings": {
+    "mode": "rotation",
+    "slideIds": [
+      "tech",
+      "unlimited",
+      "invest",
+      "news"
+    ],
+    "startDate": "2026-11-24",
+    "periodDays": 1,
+    "fallbackSlideId": "unlimited"
+  },
+  "content": {
+    "slides": [
+      {
+        "id": "tech",
+        "productId": "tech",
+        "heading": "The Bell.Tech",
+        "cards": [
+          {
+            "category": "The Bell.Tech",
+            "title": "Почему IPO Anthropic важно для всех, новая санкционная зачистка на российском технорынке и премьера GTA VI",
+            "date": "22 ноября 2026",
+            "image": "assets/showcase/tech-1.webp",
+            "url": "https://thebell.io/pochemu-ipo-anthropic-vazhno-dlya-vsekh-novaya-sanktsionnaya-zachistka-na-rossiyskom-tekhnorynke-i-premera-gta-vi"
+          },
+          {
+            "category": "The Bell.Tech",
+            "title": "Чипы, шпионы и контрабанда: все, что нужно знать об увольнении главы Nvidia Дженсена Хуанга",
+            "date": "14 ноября 2026",
+            "image": "assets/showcase/tech-2.webp",
+            "url": "https://thebell.io/chipy-shpiony-i-kontrabanda-vse-chto-nuzhno-znat-ob-uvolnenii-glavy-nvidia-dzhensena-khuanga"
+          },
+          {
+            "category": "The Bell.Tech",
+            "title": "Почему Америка ненавидит дата-центры, хронология самого большого криптовзлома в истории и кто в итоге заработает на ИИ",
+            "date": "8 ноября 2026",
+            "image": "assets/showcase/tech-3.webp",
+            "url": "https://thebell.io/pochemu-amerika-nenavidit-data-tsentry-khronologiya-samogo-bolshogo-kriptovzloma-v-istorii-i-kto-v-itoge-zarabotaet-na-ii"
+          }
+        ],
+        "more": {
+          "title": "Ещё 400+ выпусков и закрытые вебинары — по подписке",
+          "text": "Еженедельная рассылка о технологиях, архив с 2018 года и Telegram-канал The Bell.Tech",
+          "price": "$1 первый месяц",
+          "cta": "Выбрать тариф"
+        }
+      },
+      {
+        "id": "unlimited",
+        "productId": "unlimited",
+        "heading": "The Bell.Unlimited",
+        "cards": [
+          {
+            "category": "The Bell.Tech",
+            "title": "Чипы, шпионы и контрабанда: все, что нужно знать об увольнении главы Nvidia Дженсена Хуанга",
+            "date": "14 ноября 2026",
+            "image": "assets/showcase/tech-2.webp",
+            "url": "https://thebell.io/chipy-shpiony-i-kontrabanda-vse-chto-nuzhno-znat-ob-uvolnenii-glavy-nvidia-dzhensena-khuanga"
+          },
+          {
+            "category": "The Bell.Invest",
+            "title": "Что дорогой доллар сделает с прибылью компаний из S&P 500",
+            "date": "20 ноября 2026",
+            "image": "assets/showcase/invest-1.webp",
+            "url": "https://thebell.io/chto-dorogoy-dollar-sdelaet-s-pribylyu-kompaniy-iz-sp-500"
+          },
+          {
+            "category": "Истории",
+            "title": "Компания на $1,4 трлн: как Anthropic хотела притормозить гонку ИИ, но вырвалась в ней вперед",
+            "date": "18 ноября 2026",
+            "image": "assets/showcase/stories-1.webp",
+            "url": "https://thebell.io/kompaniya-na-14-trln-kak-anthropic-khotela-pritormozit-gonku-ii-no-vyrvalas-v-ney-vpered"
+          }
+        ],
+        "more": {
+          "title": "Весь The Bell без ограничений",
+          "text": "Пять рассылок, все вебинары и весь архив сайта: больше 1000 материалов",
+          "price": "от $39 в месяц",
+          "cta": "Выбрать тариф"
+        }
+      },
+      {
+        "id": "invest",
+        "productId": "invest",
+        "heading": "The Bell.Invest",
+        "cards": [
+          {
+            "category": "The Bell.Invest",
+            "title": "Что дорогой доллар сделает с прибылью компаний из S&P 500",
+            "date": "20 ноября 2026",
+            "image": "assets/showcase/invest-1.webp",
+            "url": "https://thebell.io/chto-dorogoy-dollar-sdelaet-s-pribylyu-kompaniy-iz-sp-500"
+          },
+          {
+            "category": "The Bell.Invest",
+            "title": "Сейчас или никогда. Как заработать на волне мегасделок",
+            "date": "13 ноября 2026",
+            "image": "assets/showcase/invest-2.webp",
+            "url": "https://thebell.io/seychas-ili-nikogda-kak-zarabotat-na-volne-megasdelok"
+          },
+          {
+            "category": "The Bell.Invest",
+            "title": "Переждать бурю. Три надежные дивидендные компании для неспокойных времен",
+            "date": "6 ноября 2026",
+            "image": "assets/showcase/invest-3.webp",
+            "url": "https://thebell.io/perezhdat-buryu-tri-nadezhnye-dividendnye-kompanii-dlya-nespokoynykh-vremen"
+          }
+        ],
+        "more": {
+          "title": "Больше материалов для инвесторов — по подписке",
+          "text": "Еженедельная рассылка, вебинары и закрытый Telegram-канал The Bell.Invest"
+        }
+      },
+      {
+        "id": "news",
+        "productId": "news",
+        "heading": "Новости и аналитика",
+        "cards": [
+          {
+            "category": "Утренняя рассылка",
+            "title": "Кто вернул Хуанга в Nvidia, в Европу по военному билету, в будущем России только Китай",
+            "date": "24 ноября 2026",
+            "image": "assets/showcase/news-1.webp",
+            "url": "https://thebell.io/kto-vernul-khuanga-v-nvidia-v-evropu-po-voennomu-biletu-v-budushchem-rossii-tolko-kitay"
+          },
+          {
+            "category": "Вечерняя рассылка",
+            "title": "Дженсен Хуанг снова на коне, 700 тысяч российских потерь в Украине и первый за время войны арест губернатора",
+            "date": "23 ноября 2026",
+            "image": "assets/showcase/news-2.webp",
+            "url": "https://thebell.io/dzhensen-khuang-snova-na-kone-700-tysyach-rossiyskikh-poter-v-ukraine-i-pervyy-za-vremya-voyny-arest-gubernatora"
+          },
+          {
+            "category": "Итоги недели",
+            "title": "Есть ли шансы у переговоров, история падения Дженсена Хуанга и где инвестору прятаться от ИИ-распродажи",
+            "date": "14 ноября 2026",
+            "image": "assets/showcase/news-3.webp",
+            "url": "https://thebell.io/est-li-shansy-u-peregovorov-istoriya-padeniya-dzhensena-khuanga-i-gde-investoru-pryatatsya-ot-ii-rasprodazhi"
+          }
+        ],
+        "more": {
+          "title": "Все выпуски рассылок — по подписке",
+          "text": "«Утро», «Вечер» и «Итоги недели»: из всего потока новостей отбираем только по-настоящему важное"
+        }
+      }
+    ]
+  }
+}

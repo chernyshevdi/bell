@@ -1,0 +1,25 @@
+{
+  "settings": {},
+  "content": {
+    "items": [
+      {
+        "category": "Новости",
+        "title": "Nvidia вернула Дженсена Хуанга на должности президента и генерального директора",
+        "date": "23 ноября 2026",
+        "url": "https://thebell.io/nvidia-vernula-dzhensena-khuanga-na-dolzhnosti-prezidenta-i-generalnogo-direktora"
+      },
+      {
+        "category": "Новости",
+        "title": "Украина нанесла удар по снабжению и защите морских баз России",
+        "date": "23 ноября 2026",
+        "url": "https://thebell.io/ukraina-nanesla-udar-posnabzheniyu-izashchite-morskikh-baz-rossii"
+      },
+      {
+        "category": "Новости",
+        "title": "Власти выделят деньги из ФНБ на паромы для Калининграда на фоне угрозы блокады",
+        "date": "23 ноября 2026",
+        "url": "https://thebell.io/vlasti-vydelyat-dengi-iz-fnb-na-paromy-dlya-kaliningrada-na-fone-ugrozy-blokady"
+      }
+    ]
+  }
+}
