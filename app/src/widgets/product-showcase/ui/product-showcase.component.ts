@@ -47,24 +47,28 @@ const CARDS = 3;
   `,
   styles: `
     .show { --pad: 16px; padding: var(--pad); background: var(--c-surface-sunken); border: 1px solid var(--c-border); border-radius: 16px; }
-    .show__h { font: 500 26px/1.2 var(--f-head); margin: 0 0 16px; }
+    .show__h { font: 500 22px/1.2 var(--f-head); margin: 0 0 14px; }
     .show__cards { list-style: none; margin: 0 calc(var(--pad) * -1); padding: 0 var(--pad) 4px; display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--pad); scrollbar-width: none; }
     .show__cards::-webkit-scrollbar { display: none; }
     .show__cards > li { flex: 0 0 78%; scroll-snap-align: start; }
     .more { margin-top: 16px; display: grid; gap: 16px; padding: 22px 20px; border-radius: 12px; color: #fff; background: linear-gradient(120deg, var(--c-dark), var(--c-dark-soft)); }
-    .more__title { margin: 0 0 6px; font: 500 24px/1.2 var(--f-head); }
-    .more__desc { margin: 0; font-size: 15px; opacity: .92; max-width: 60ch; }
+    .more__title { margin: 0 0 6px; font: 500 20px/1.25 var(--f-head); }
+    .more__desc { margin: 0; font-size: 14px; opacity: .92; max-width: 60ch; }
     .more__buy { display: flex; flex-direction: column; gap: 10px; }
-    .more__price { margin: 0; font: 600 22px/1.1 var(--f-ui); }
+    .more__price { margin: 0; font: 600 19px/1.1 var(--f-ui); }
     .more__cta { background: #fff; color: #111; border-color: #fff; width: 100%; }
     .more__cta:hover { background: transparent; color: #fff; }
-    .more__note { margin: 0; font-size: 14px; opacity: .88; }
+    .more__note { margin: 0; font-size: 13px; opacity: .88; }
     @media (min-width: 768px) {
+      .show__h { font-size: 26px; margin-bottom: 16px; }
       .show { --pad: 28px; }
       .show__cards { display: grid; grid-template-columns: repeat(3, 1fr); overflow: visible; margin: 0; padding: 0; gap: 16px; }
       .show__cards > li { flex: initial; }
       .more { grid-template-columns: 1fr auto; align-items: center; gap: 40px; padding: 28px 36px; }
       .more__title { font-size: 28px; }
+      .more__desc { font-size: 15px; }
+      .more__price { font-size: 22px; }
+      .more__note { font-size: 14px; }
       .more__buy { align-items: flex-end; text-align: right; min-width: 240px; }
       .more__cta { width: auto; min-width: 220px; }
     }

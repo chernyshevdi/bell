@@ -40,9 +40,9 @@ import { Article } from '../model/types';
 
     /* мобильный, как на thebell.io */
     @media (max-width: 767px) {
-      :host(:not(.photo)) { height: 100%; min-height: var(--card-min-h, 250px); padding: 22px 20px 18px; background: #fff; border: 1px solid var(--c-grey-200); border-radius: 12px; }
-      :host(:not(.photo)) .card__title { font: 500 23px/1.2 var(--f-ui); }
-      :host(.photo) .card__title { font: 500 23px/1.2 var(--f-ui); margin: 18px; }
+      :host(:not(.photo)) { height: 100%; min-height: var(--card-min-h, 210px); padding: 18px 16px 16px; background: #fff; border: 1px solid var(--c-grey-200); border-radius: 12px; }
+      :host(:not(.photo)) .card__title { font: 500 19px/1.25 var(--f-ui); }
+      :host(.photo) .card__title { font: 500 17px/1.25 var(--f-ui); margin: 16px; }
     }
   `,
 })

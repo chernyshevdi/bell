@@ -7,8 +7,7 @@
       "news"
     ],
     "startDate": "2026-11-24",
-    "periodDays": 1,
-    "fallbackSlideId": "tech"
+    "periodDays": 1
   },
   "content": {
     "slides": [

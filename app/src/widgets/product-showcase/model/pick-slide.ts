@@ -6,7 +6,7 @@ const DAY_MS = 86_400_000;
 /**
  * Какой слайд показать. Чистая функция: время и подписки приходят параметрами.
  * rotation детерминирована (одинакова у всех в один период), без рандома.
- * Слайды продуктов, которые неактивны или уже куплены, пропускаются; затем fallback; иначе null (блок скрывается).
+ * Слайды продуктов, которые неактивны или уже куплены, пропускаются; если подходящих нет, null (блок скрывается).
  */
 export function pickSlide(
   config: ShowcaseSettings,
@@ -23,7 +23,7 @@ export function pickSlide(
     return s && p && p.active && !subscribedIds.has(p.id) ? s : null;
   };
 
-  if (config.mode === 'manual') return eligible(config.slideId) ?? eligible(config.fallbackSlideId);
+  if (config.mode === 'manual') return eligible(config.slideId);
 
   const ids = config.slideIds ?? [];
   if (ids.length > 0) {
@@ -34,5 +34,5 @@ export function pickSlide(
       if (hit) return hit;
     }
   }
-  return eligible(config.fallbackSlideId);
+  return null;
 }
