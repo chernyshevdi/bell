@@ -1,4 +1,5 @@
 import { Product } from '@entities/product';
+import { hasAccess } from '@entities/subscription';
 import { ShowcaseSettings, ShowcaseSlide } from './types';
 
 const DAY_MS = 86_400_000;
@@ -6,7 +7,7 @@ const DAY_MS = 86_400_000;
 /**
  * Какой слайд показать. Чистая функция: время и подписки приходят параметрами.
  * rotation детерминирована (одинакова у всех в один период), без рандома.
- * Слайды продуктов, которые неактивны или уже куплены, пропускаются; если подходящих нет, null (блок скрывается).
+ * Слайды продуктов, которые неактивны или к которым у пользователя уже есть доступ (своя подписка или Unlimited), пропускаются; если подходящих нет, null (блок скрывается).
  */
 export function pickSlide(
   config: ShowcaseSettings,
@@ -20,7 +21,7 @@ export function pickSlide(
   const eligible = (id?: string): ShowcaseSlide | null => {
     const s = id ? slideById.get(id) : undefined;
     const p = s ? productById.get(s.productId) : undefined;
-    return s && p && p.active && !subscribedIds.has(p.id) ? s : null;
+    return s && p && p.active && !hasAccess(subscribedIds, p.id) ? s : null;
   };
 
   if (config.mode === 'manual') return eligible(config.slideId);
